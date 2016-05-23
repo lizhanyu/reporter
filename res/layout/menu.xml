@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<EditText android:layout_width="fill_parent"
+    android:id="@+id/live"
+    android:layout_height="100dp"
+   
+    />
+<Button android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:text="进入直播"
+    android:onClick="enterLive"
+    />
+    
+<EditText android:layout_width="fill_parent"
+    android:id="@+id/dian"
+    android:text="http://lx.xinhuashixun.com/portal-webApp/portalstorage/2-1-1/10000/4811-4911-6653.mp4"
+    android:layout_height="100dp"/>
+<Button android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:text="进入点播"
+    android:onClick="enterDian"
+    />
+</LinearLayout>
